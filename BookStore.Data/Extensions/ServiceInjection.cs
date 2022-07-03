@@ -16,6 +16,7 @@ namespace BookStore.Data.Extensions
                 context.UseInMemoryDatabase("BookStoreDB");
             });
             services.AddScoped<IBookRepository, BookRepository>();
+            services.AddScoped<IUserRepository, UserRepository>();
         }
     }
 }

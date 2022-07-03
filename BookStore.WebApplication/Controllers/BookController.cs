@@ -21,7 +21,7 @@ namespace BookStore.WebApplication.Controllers
 
         public IActionResult Index()
         {
-            var listBook = _bookRepository.GetAllBooks();
+            var listBook = _bookRepository.GetAll();
             return View(listBook);
         }
 
@@ -33,7 +33,7 @@ namespace BookStore.WebApplication.Controllers
         [Route("book/{id}")]
         public IActionResult Details(int Id)
         {
-            var book = _bookRepository.GetBookDetails(Id);
+            var book = _bookRepository.GetDetails(Id);
             return View(book);
         }
     }

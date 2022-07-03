@@ -42,26 +42,26 @@ namespace BookStore.Data.Repositories
                 _context.SaveChanges();
             }
         }
-        public void AddBook(Book book)
+        public void Add(Book book)
         {
             _context.Books.Add(book);
             _context.SaveChanges();
         }
 
-        public IEnumerable<Book> GetAllBooks()
+        public IEnumerable<Book> GetAll()
         {
             return _context.Books.ToList();
         }
 
-        public Book GetBookDetails(int bookId)
+        public Book GetDetails(int bookId)
         {
             return _context.Books.FirstOrDefault(x => x.Id == bookId);
         }
     }
     public interface IBookRepository
     {
-        void AddBook(Book book);
-        Book GetBookDetails(int bookId);
-        IEnumerable<Book> GetAllBooks();
+        void Add(Book book);
+        Book GetDetails(int bookId);
+        IEnumerable<Book> GetAll();
     }
 }
