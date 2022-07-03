@@ -1,0 +1,10 @@
+D:\Projects\BookStore\BookStore.Data\obj\Debug\netcoreapp3.1\BookStore.Data.csproj.AssemblyReference.cache
+D:\Projects\BookStore\BookStore.Data\obj\Debug\netcoreapp3.1\BookStore.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\BookStore\BookStore.Data\obj\Debug\netcoreapp3.1\BookStore.Data.AssemblyInfoInputs.cache
+D:\Projects\BookStore\BookStore.Data\obj\Debug\netcoreapp3.1\BookStore.Data.AssemblyInfo.cs
+D:\Projects\BookStore\BookStore.Data\obj\Debug\netcoreapp3.1\BookStore.Data.csproj.CoreCompileInputs.cache
+D:\Projects\BookStore\BookStore.Data\bin\Debug\netcoreapp3.1\BookStore.Data.deps.json
+D:\Projects\BookStore\BookStore.Data\bin\Debug\netcoreapp3.1\BookStore.Data.dll
+D:\Projects\BookStore\BookStore.Data\bin\Debug\netcoreapp3.1\BookStore.Data.pdb
+D:\Projects\BookStore\BookStore.Data\obj\Debug\netcoreapp3.1\BookStore.Data.dll
+D:\Projects\BookStore\BookStore.Data\obj\Debug\netcoreapp3.1\BookStore.Data.pdb
