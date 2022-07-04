@@ -2,6 +2,7 @@
 using BookStore.WebApplication.Models;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication.Google;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
@@ -24,6 +25,40 @@ namespace BookStore.WebApplication.Controllers
         public IActionResult Login(string returnURL = "/")
         {
             return View(new Login { returnURL = returnURL });
+        }
+
+
+        [AllowAnonymous]
+        [HttpGet]
+        public IActionResult LoginWithGoogle(string returnURL = "/")
+        {
+            var props = new AuthenticationProperties
+            {
+                RedirectUri = Url.Action("GoogleLoginCallback"),
+                Items =
+                {
+                    {"returnURL", returnURL}
+                }
+            };
+
+            return Challenge(props, GoogleDefaults.AuthenticationScheme);
+        }
+
+        [AllowAnonymous]
+        [HttpGet]
+        public async Task<IActionResult> GoogleLoginCallback()
+        {
+            var result = await HttpContext.AuthenticateAsync(GoogleDefaults.AuthenticationScheme);
+
+            var claims = result.Principal.Claims;
+
+            var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+
+            var claimPricipal = new ClaimsPrincipal(identity);
+
+            await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, claimPricipal);
+
+            return LocalRedirect(result.Properties.Items["returnURL"]);
         }
 
         [AllowAnonymous]
