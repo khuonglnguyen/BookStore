@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "Microsoft.AspNetCore.Authentication.Google/3.1.5": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Google.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Google.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -1985,6 +1997,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "Microsoft.AspNetCore.Authentication.Google": "3.1.5",
           "Microsoft.EntityFrameworkCore": "3.1.26",
           "Microsoft.EntityFrameworkCore.InMemory": "3.1.26",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
@@ -1999,6 +2012,21 @@
     }
   },
   "libraries": {
+    "Microsoft.AspNetCore.Authentication.Google/3.1.5": {
+      "sha512": "5fGJ3eKAEJRqu+cUqC2tVvITrbBx8x5JJbQbpD81Ob1q/My9pDitwaaDSBSkNeQ0J4J33Mub1D+3xS9K/9cTxg==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authentication.google/3.1.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Google.dll",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Google.xml",
+        "microsoft.aspnetcore.authentication.google.3.1.5.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.google.nuspec"
+      ]
+    },
     "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
       "sha512": "Y4rs5aMEXY8G7wJo5S3EEt6ltqyOTr/qOeZzfn+hw/fuQj5GppGckMY5psGLETo1U9hcT5MmAhaT5xtusM1b5g==",
       "type": "package",

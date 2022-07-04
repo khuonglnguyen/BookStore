@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "TR67fwTIHTCfPjP9HnlmoNPW/hub+xEvQHOPyTRZaP0JsQmopC9eN/+1gdr54qsKTdyDxnqcwGiqsSW9vFoMJg==",
+  "dgSpecHash": "G+FCoA0CQPlh1oZjw8ZIn3vPXABWsMhzx+CzxHQcxC/JDCuQn158Cb48KmGa8e6tsjtnnUeNDBplTNWXMdyRrw==",
   "success": true,
   "projectFilePath": "D:\\Projects\\BookStore\\BookStore.WebApplication\\BookStore.WebApplication.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Khuong Nguyen\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\3.1.5\\microsoft.aspnetcore.authentication.google.3.1.5.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\Khuong Nguyen\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\3.1.0\\microsoft.aspnetcore.razor.language.3.1.0.nupkg.sha512",

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "6B/yDQ68v2uRqQbZqjDRuJq3iLkImOVtKrBZyni68aq1SVYLcJz1R5BreqawK3c3oCXPV/sUGAB6xWcgsGrtPg==",
+  "dgSpecHash": "6a2VJKiTwH+bu07E/sbrTJGUa9gmqRHPZVYs9zQ5A8dCjZxgMUEnz3BJIPSHMxQvd7rzRq5enhy0cDU6GDcLhg==",
   "success": true,
   "projectFilePath": "D:\\Projects\\BookStore\\BookStore.Data\\BookStore.Data.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Khuong Nguyen\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\3.1.5\\microsoft.aspnetcore.authentication.google.3.1.5.nupkg.sha512",
     "C:\\Users\\Khuong Nguyen\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Khuong Nguyen\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
     "C:\\Users\\Khuong Nguyen\\.nuget\\packages\\microsoft.entityframeworkcore\\3.1.26\\microsoft.entityframeworkcore.3.1.26.nupkg.sha512",

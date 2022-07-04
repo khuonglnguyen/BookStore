@@ -310,6 +310,17 @@
           "BookStore.WebApplication.dll": {}
         }
       },
+      "Microsoft.AspNetCore.Authentication.Google/3.1.5": {
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Google.dll": {
+            "assemblyVersion": "3.1.5.0",
+            "fileVersion": "3.100.520.27105"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.Google.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
         "dependencies": {
           "System.Text.Encodings.Web": "4.5.0"
@@ -1762,6 +1773,7 @@
       },
       "BookStore.Data/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.Authentication.Google": "3.1.5",
           "Microsoft.EntityFrameworkCore": "3.1.26",
           "Microsoft.EntityFrameworkCore.InMemory": "3.1.26",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
@@ -3394,6 +3406,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Microsoft.AspNetCore.Authentication.Google/3.1.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5fGJ3eKAEJRqu+cUqC2tVvITrbBx8x5JJbQbpD81Ob1q/My9pDitwaaDSBSkNeQ0J4J33Mub1D+3xS9K/9cTxg==",
+      "path": "microsoft.aspnetcore.authentication.google/3.1.5",
+      "hashPath": "microsoft.aspnetcore.authentication.google.3.1.5.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
       "type": "package",
